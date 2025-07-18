@@ -1,6 +1,7 @@
 flask
-torch==2.7.0
-torchvision==0.22.0
-transformers==4.36.2
-tokenizers==0.14.1
+torch==2.1.0
+torchvision==0.16.0
+transformers==4.29.2
+tokenizers==0.13.3
+huggingface-hub==0.14.1
 pillow
