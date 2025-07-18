@@ -1,5 +1,5 @@
 flask
-torch==2.1.0
-torchvision==0.16.0
-transformers==4.36.2
+torch==2.7.1
+torchvision==0.18.1
+transformers==4.40.1
 pillow
