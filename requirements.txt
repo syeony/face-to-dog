@@ -2,5 +2,5 @@ flask
 torch==2.7.0
 torchvision==0.22.0
 transformers==4.36.2
-tokenizers==0.13.3
+tokenizers==0.14.1
 pillow
