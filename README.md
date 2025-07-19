@@ -1,6 +1,7 @@
 # face-to-dog
 사이드 프로젝트 (나와 닮은 동물은?)
 # 실행명령어
+alt+b로 터미널 열어서 명령어 순차적 입력
 ```
 pip install -r requirements.txt
 python app.py
