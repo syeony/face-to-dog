@@ -4,10 +4,22 @@ from transformers import CLIPProcessor, CLIPModel
 import os
 
 dog_list = {
-    "푸들": "static/dog_images/푸들.jpg",
+    "기니피그": "static/dog_images/기니피그.jpg",
+    "데본렉스": "static/dog_images/데본렉스.jpg",
+    "래그돌": "static/dog_images/래그돌.jpg",
+    "말티즈": "static/dog_images/말티즈.jpg",
+    "벵갈고양이": "static/dog_images/벵갈고양이.jpg",
+    "비글": "static/dog_images/비글.jpg",
     "시바견": "static/dog_images/시바견.jpg",
-    "리트리버": "static/dog_images/리트리버.jpg"
+    "시베리안허스키": "static/dog_images/시베리안허스키.jpg",
+    "오렌지태비": "static/dog_images/오렌지태비.jpg",
+    "치와와": "static/dog_images/치와와.jpg",
+    "카피바라": "static/dog_images/카피바라.jpeg",
+    "코리안숏헤어": "static/dog_images/코리안숏헤어.jpg",
+    "푸들": "static/dog_images/푸들.jpg",
+    "러시안블루": "static/dog_images/러시안블루.jpg",
 }
+
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
